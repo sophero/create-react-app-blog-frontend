@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './components/App';
-import Blogs from './components/Blogs';
+import BlogList from './components/BlogList';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<Blogs />, document.getElementById('root'));
+ReactDOM.render(<BlogList />, document.getElementById('root'));
 registerServiceWorker();
